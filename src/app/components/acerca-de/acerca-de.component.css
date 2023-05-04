@@ -1,0 +1,86 @@
+#aboutMe{
+    padding: 20px;
+    background-color: #758e4f;
+    text-align: center;
+}
+
+#title{
+    font-size: 50px;
+    color: #e5e5e5;
+}
+
+#name{
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+@media (min-width: 1140px){
+    #profileIMG{
+        position: absolute;
+         width: 15%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 3%;
+         top: 550px;
+    }
+}
+
+@media (max-width: 576px){
+    #profileIMG{
+        position: absolute;
+         width: 15%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 3%;
+         top: 620px;
+    }
+}
+
+@media (max-width: 575px){
+    #profileIMG{
+        position: absolute;
+         width: 50%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 25%;
+         top: 450px;
+    }
+}
+
+@media (max-width: 425px){
+    #profileIMG{
+        position: absolute;
+         width: 50%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 25%;
+         top: 520px;
+    }
+}
+@media (max-width: 475px){
+    #profileIMG{
+        position: absolute;
+         width: 50%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 25%;
+         top: 525px;
+    }
+}
+
+@media (max-width: 320px){
+    #profileIMG{
+        position: absolute;
+         width: 50%; 
+         border-radius: 100%;
+         border: 2px solid #e5e5e5;
+         box-shadow: 3px 3px 3px black;
+         left: 25%;
+         top: 570px;
+    }
+}
