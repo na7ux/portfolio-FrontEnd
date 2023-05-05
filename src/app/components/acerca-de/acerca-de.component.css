@@ -1,12 +1,21 @@
-#aboutMe{
+.row{
     padding: 20px;
     background-color: #758e4f;
     text-align: center;
 }
 
-#title{
-    font-size: 50px;
+h1, #aboutMe{
     color: #e5e5e5;
+}
+
+#profileIMG{
+    position: absolute;
+     width: 15%; 
+     border-radius: 100%;
+     border: 2px solid #e5e5e5;
+     box-shadow: 3px 3px 3px black;
+     left: 3%;
+     top: 630px;
 }
 
 #name{
@@ -22,7 +31,7 @@
          border: 2px solid #e5e5e5;
          box-shadow: 3px 3px 3px black;
          left: 3%;
-         top: 550px;
+         top: 500px;
     }
 }
 
@@ -38,29 +47,6 @@
     }
 }
 
-@media (max-width: 575px){
-    #profileIMG{
-        position: absolute;
-         width: 50%; 
-         border-radius: 100%;
-         border: 2px solid #e5e5e5;
-         box-shadow: 3px 3px 3px black;
-         left: 25%;
-         top: 450px;
-    }
-}
-
-@media (max-width: 425px){
-    #profileIMG{
-        position: absolute;
-         width: 50%; 
-         border-radius: 100%;
-         border: 2px solid #e5e5e5;
-         box-shadow: 3px 3px 3px black;
-         left: 25%;
-         top: 520px;
-    }
-}
 @media (max-width: 475px){
     #profileIMG{
         position: absolute;
@@ -69,7 +55,7 @@
          border: 2px solid #e5e5e5;
          box-shadow: 3px 3px 3px black;
          left: 25%;
-         top: 525px;
+         top: 720px;
     }
 }
 
@@ -81,6 +67,6 @@
          border: 2px solid #e5e5e5;
          box-shadow: 3px 3px 3px black;
          left: 25%;
-         top: 570px;
+         top: 740px;
     }
 }
